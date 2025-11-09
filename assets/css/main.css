@@ -1767,7 +1767,7 @@ section,
 }
 .services .service-item{
     border-color: black;
-    background color: #f6f4dd
+
 }
 
 .services .service-item.featured::before {
@@ -1793,7 +1793,7 @@ section,
   width: 70px;
   height: 70px;
   margin: 0 auto 20px;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background: color-mix(in srgb, #ff9d13, transparent 10%);
   color: white;
   border-radius: 12px;
   display: flex;
@@ -1810,7 +1810,7 @@ section,
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 12px;
-  color: var(--heading-color);
+  color: #ff9d13;
 }
 
 .services p {
@@ -1824,7 +1824,7 @@ section,
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: var(--accent-color);
+  color: #ff9d13;
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
@@ -1840,7 +1840,7 @@ section,
   background: #ff4300;
   border-radius: 20px;
   padding: 45px 50px;
-  color: #55ff00;
+  color: #ff4300;
   position: relative;
   overflow: hidden;
 }
@@ -1990,13 +1990,13 @@ section,
 
 .portfolio .portfolio-filters li:hover {
   color: var(--accent-color);
-  border-color: #55ff00;
+  border-color: #ff4300;
 }
 
 .portfolio .portfolio-filters li.filter-active {
   background-color: var(--accent-color);
   color: var(--contrast-color);
-  border-color: #55ff00;
+  border-color: #ff4300;
 }
 
 .portfolio .portfolio-card {
