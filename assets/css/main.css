@@ -32,11 +32,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #d9d9d9;  /* The default color of the main navmenu links */
-  --nav-hover-color: #ff9d13; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #ff4300; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #2e2e2e; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #2e2e2e; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #d9d9d9; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ff9d13; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #ff4300; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -1029,7 +1029,7 @@ section,
 
 .about .profile-card .profile-actions a.btn-secondary {
   background: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
+  color: white;
 }
 
 .about .profile-card .profile-actions a.btn-secondary:hover {
@@ -1073,8 +1073,8 @@ section,
 .about .content-wrapper .bio-section .section-tag {
   display: inline-block;
   padding: 6px 16px;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 10%);
+  color: white;
   border-radius: 20px;
   font-size: 13px;
   font-weight: 600;
@@ -1151,8 +1151,8 @@ section,
 .about .content-wrapper .skills-showcase .section-tag {
   display: inline-block;
   padding: 6px 16px;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 10%);
+  color: wwhite;
   border-radius: 20px;
   font-size: 13px;
   font-weight: 600;
@@ -1188,7 +1188,7 @@ section,
 .about .content-wrapper .skills-showcase .skills-list .skill-item .skill-info .skill-percent {
   font-size: 15px;
   font-weight: 700;
-  color: var(--accent-color);
+  color: white;
 }
 
 .about .content-wrapper .skills-showcase .skills-list .skill-item .progress {
@@ -1201,7 +1201,7 @@ section,
 .about .content-wrapper .skills-showcase .skills-list .skill-item .progress .progress-bar {
   width: 0;
   height: 100%;
-  background: linear-gradient(90deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #ff6b9d 50%));
+  background: linear-gradient(90deg, #55ff00, color-mix(in srgb, var(--accent-color), #ff6b9d 50%));
   border-radius: 10px;
   transition: width 1.5s cubic-bezier(0.65, 0, 0.35, 1);
   position: relative;
@@ -1357,7 +1357,7 @@ section,
 
 .resume .experience-section .experience-cards .exp-card:hover {
   transform: translateY(-5px);
-  border-color: color-mix(in srgb, var(--accent-color), transparent 80%);
+  border-color: color-mix(in srgb, black, transparent 40%);
   box-shadow: 0 15px 45px color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
@@ -1367,7 +1367,7 @@ section,
 
 .resume .experience-section .experience-cards .exp-card.featured {
   border-color: color-mix(in srgb, var(--accent-color), transparent 70%);
-  background: linear-gradient(135deg, var(--surface-color), color-mix(in srgb, var(--accent-color), transparent 95%));
+  background: linear-gradient(135deg, var(--surface-color), color-mix(in srgb, black, transparent 40%));
 }
 
 .resume .experience-section .experience-cards .exp-card.featured::before {
@@ -1397,8 +1397,8 @@ section,
 }
 
 .resume .experience-section .experience-cards .exp-card .card-header .period-badge {
-  background: color-mix(in srgb, var(--accent-color), transparent 85%);
-  color: var(--accent-color);
+  background: color-mix(in srgb, #ff4300, transparent 90%);
+  color: white;
   padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -1425,9 +1425,9 @@ section,
 .resume .experience-section .experience-cards .exp-card .card-body .duration {
   display: inline-block;
   font-size: 0.9rem;
-  color: var(--accent-color);
+  color:white;
   font-weight: 600;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background: color-mix(in srgb, #ff4300, transparent 95%);
   padding: 0.2rem 0.8rem;
   border-radius: 12px;
   margin-bottom: 1rem;
@@ -1447,8 +1447,8 @@ section,
 }
 
 .resume .experience-section .experience-cards .exp-card .card-body .skills-tags .skill-tag {
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
-  color: var(--accent-color);
+  background: color-mix(in srgb,#ff4300, transparent 95%);
+  color:white;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.8rem;
@@ -1468,7 +1468,7 @@ section,
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(180deg, var(--accent-color), color-mix(in srgb, var(--accent-color), transparent 50%));
+  background: linear-gradient(180deg, blue, color-mix(in srgb, blue, transparent 50%));
 }
 
 .resume .education-section .education-timeline .timeline-track .timeline-item {
@@ -1486,13 +1486,13 @@ section,
   top: 0;
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #6c5ce7 20%));
+  background: linear-gradient(135deg, #ff4300, color-mix(in srgb, #ff4300, #6c5ce7 20%));
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 4px solid var(--background-color);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color), transparent 80%);
+  box-shadow: 0 0 0 3px color-mix(in srgb, #ff4300, transparent 80%);
 }
 
 .resume .education-section .education-timeline .timeline-track .timeline-item .timeline-marker i {
@@ -1510,7 +1510,7 @@ section,
 
 .resume .education-section .education-timeline .timeline-track .timeline-item .timeline-content:hover {
   transform: translateX(5px);
-  border-color: color-mix(in srgb, var(--accent-color), transparent 80%);
+  border-color: color-mix(in srgb, #ff4300, transparent 80%);
   box-shadow: 0 10px 30px color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -1523,9 +1523,9 @@ section,
 
 .resume .education-section .education-timeline .timeline-track .timeline-item .timeline-content .education-meta .year-range {
   font-size: 0.9rem;
-  color: var(--accent-color);
+  color:white;
   font-weight: 600;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background: color-mix(in srgb, #ff4300, transparent 90%);
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
 }
@@ -1564,21 +1564,21 @@ section,
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  background: color-mix(in srgb,#ff4300, transparent 90%);
   padding: 0.6rem 1rem;
   border-radius: 8px;
-  border-left: 3px solid var(--accent-color);
+  border-left: 3px solid white;
 }
 
 .resume .education-section .education-timeline .timeline-track .timeline-item .timeline-content .achievement i {
-  color: var(--accent-color);
+  color: white;
   font-size: 1rem;
 }
 
 .resume .education-section .education-timeline .timeline-track .timeline-item .timeline-content .achievement span {
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--accent-color);
+  color:white;
 }
 
 .resume .education-section .education-timeline .timeline-track .timeline-item .timeline-content .certifications-list .cert-item {
@@ -1601,9 +1601,9 @@ section,
 
 .resume .education-section .education-timeline .timeline-track .timeline-item .timeline-content .certifications-list .cert-item .cert-year {
   font-size: 0.8rem;
-  color: var(--accent-color);
+  color:white;
   font-weight: 600;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background: color-mix(in srgb,#ff4300, transparent 90%);
   padding: 0.2rem 0.6rem;
   border-radius: 10px;
 }
@@ -1731,7 +1731,7 @@ section,
   left: 0;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, var(--accent-color), color-mix(in srgb, var(--accent-color), transparent 50%));
+  background: linear-gradient(90deg, blue , color-mix(in srgb, blue, transparent 50%));
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
@@ -2148,7 +2148,7 @@ section,
 }
 
 .portfolio .portfolio-bottom .btn-accent:hover {
-  background-color: color-mix(in srgb, var(--accent-color), black 10%);
+  background-color: color-mix(in srgb, var(--accent-color), #ff4300 90%);
   transform: translateY(-2px);
   box-shadow: 0 5px 15px color-mix(in srgb, var(--accent-color), transparent 60%);
 }
@@ -3549,7 +3549,7 @@ section,
 }
 
 .privacy .policy-sidebar .policy-nav .nav-link:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
   color: var(--accent-color);
   border-left-color: var(--accent-color);
   padding-left: 20px;
@@ -3718,7 +3718,7 @@ section,
   padding: 20px;
   background-color: var(--background-color);
   border-radius: 10px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 10%);
   transition: all 0.3s;
 }
 
@@ -4052,7 +4052,7 @@ section,
   right: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, color-mix(in srgb, var(--accent-color), transparent 90%) 0%, transparent 70%);
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent-color), transparent 10%) 0%, transparent 70%);
   opacity: 0.5;
 }
 
