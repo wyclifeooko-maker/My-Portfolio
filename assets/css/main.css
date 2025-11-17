@@ -1028,12 +1028,12 @@ section,
 }
 
 .about .profile-card .profile-actions a.btn-secondary {
-  background: color-mix(in srgb,#f6f4dd);
+  background: color-mix(in srgb, var(--accent-color), transparent 85%);
   color: white;
 }
 
 .about .profile-card .profile-actions a.btn-secondary:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 85%);
+  background: var(--accent-color);
 }
 
 .about .profile-card .profile-actions a i {
